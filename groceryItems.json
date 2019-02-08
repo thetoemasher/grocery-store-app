@@ -1,0 +1,152 @@
+[
+    {
+        "item": "Eggs",
+        "category": "dairy",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Milk",
+        "category": "dairy",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Cheese",
+        "category": "dairy",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Yogurt",
+        "category": "dairy",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Cream",
+        "category": "dairy",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Ground Beef",
+        "category": "meat",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Pork Chops",
+        "category": "meat",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Chicken Breast",
+        "category": "meat",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Ground Lamb",
+        "category": "meat",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Bacon",
+        "category": "meat",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Bread",
+        "category": "grain",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Bagels",
+        "category": "grain",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "White Rice",
+        "category": "grain",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Spaghetti",
+        "category": "grain",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Bananas",
+        "category": "produce",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Strawberries",
+        "category": "produce",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Tomatoes",
+        "category": "produce",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Spinach",
+        "category": "produce",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Carrots",
+        "category": "produce",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Green Bell Pepper",
+        "category": "produce",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Coffee",
+        "category": "misc",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Trash Bags",
+        "category": "misc",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Laundry Detergent",
+        "category": "misc",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Dish Soap",
+        "category": "misc",
+        "price": 0,
+        "imageUrl": ""
+    },
+    {
+        "item": "Toilet Paper",
+        "category": "misc",
+        "price": 0,
+        "imageUrl": ""
+    }
+]
