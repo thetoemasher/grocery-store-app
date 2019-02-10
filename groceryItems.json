@@ -2,151 +2,151 @@
     {
         "item": "Eggs",
         "category": "dairy",
-        "price": 0,
-        "imageUrl": ""
+        "price": 2.49,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0001111085428"
     },
     {
         "item": "Milk",
         "category": "dairy",
-        "price": 0,
-        "imageUrl": ""
+        "price": 2.09,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0001111041554"
     },
     {
         "item": "Cheese",
         "category": "dairy",
-        "price": 0,
-        "imageUrl": ""
+        "price": 5.99,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0004242105973"
     },
     {
         "item": "Yogurt",
         "category": "dairy",
-        "price": 0,
-        "imageUrl": ""
+        "price": 4.99,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0068954408301"
     },
     {
         "item": "Cream",
         "category": "dairy",
-        "price": 0,
-        "imageUrl": ""
+        "price": 4.59,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0074236521685"
     },
     {
         "item": "Ground Beef",
         "category": "meat",
-        "price": 0,
-        "imageUrl": ""
+        "price": 4.49,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0001111096968"
     },
     {
         "item": "Pork Chops",
         "category": "meat",
-        "price": 0,
-        "imageUrl": ""
+        "price": 3.49,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0029315150000"
     },
     {
         "item": "Chicken Breast",
         "category": "meat",
-        "price": 0,
-        "imageUrl": ""
+        "price": 3.99,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0026082950000"
     },
     {
         "item": "Ground Lamb",
         "category": "meat",
-        "price": 0,
-        "imageUrl": ""
+        "price": 9.99,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0001111003104"
     },
     {
         "item": "Bacon",
         "category": "meat",
-        "price": 0,
-        "imageUrl": ""
+        "price": 5.99,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0001111097209"
     },
     {
         "item": "Bread",
         "category": "grain",
-        "price": 0,
-        "imageUrl": ""
+        "price": 3.99,
+        "imageUrl": "https://www.kroger.com/product/images/medium/left/0004157322506"
     },
     {
         "item": "Bagels",
         "category": "grain",
-        "price": 0,
-        "imageUrl": ""
+        "price": 3.29,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0004157305817"
     },
     {
         "item": "White Rice",
         "category": "grain",
-        "price": 0,
-        "imageUrl": ""
+        "price": 0.89,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0007248899055"
     },
     {
         "item": "Spaghetti",
         "category": "grain",
-        "price": 0,
-        "imageUrl": ""
+        "price": 1.49,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0001111085004"
     },
     {
         "item": "Bananas",
         "category": "produce",
-        "price": 0,
-        "imageUrl": ""
+        "price": 0.69,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0000000004011"
     },
     {
         "item": "Strawberries",
         "category": "produce",
-        "price": 0,
-        "imageUrl": ""
+        "price": 3.49,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0020420510000"
     },
     {
         "item": "Tomatoes",
         "category": "produce",
-        "price": 0,
-        "imageUrl": ""
+        "price": 0.99,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0000000004087"
     },
     {
         "item": "Spinach",
         "category": "produce",
-        "price": 0,
-        "imageUrl": ""
+        "price": 1.49,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0000000004090"
     },
     {
         "item": "Carrots",
         "category": "produce",
-        "price": 0,
-        "imageUrl": ""
+        "price": 1.39,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0000000094094"
     },
     {
         "item": "Green Bell Pepper",
         "category": "produce",
-        "price": 0,
-        "imageUrl": ""
+        "price": 1.19,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0000000004065"
     },
     {
         "item": "Coffee",
         "category": "misc",
-        "price": 0,
-        "imageUrl": ""
+        "price": 7.99,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0002550020421"
     },
     {
         "item": "Trash Bags",
         "category": "misc",
-        "price": 0,
-        "imageUrl": ""
+        "price": 2.99,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0001111087046"
     },
     {
         "item": "Laundry Detergent",
         "category": "misc",
-        "price": 0,
-        "imageUrl": ""
+        "price": 8.99,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0003700008875"
     },
     {
         "item": "Dish Soap",
         "category": "misc",
-        "price": 0,
-        "imageUrl": ""
+        "price": 2.49,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0003700097305"
     },
     {
         "item": "Toilet Paper",
         "category": "misc",
-        "price": 0,
-        "imageUrl": ""
+        "price": 12.99,
+        "imageUrl": "https://www.kroger.com/product/images/medium/front/0005400047618"
     }
 ]
