@@ -1,8 +1,24 @@
 <template>
   <div>
+    <nav class="nav-bar">
+      <h1>CODY'S GROCERY STOP</h1>
+      <div class="links">
+        <nuxt-link to="/" >Home</nuxt-link>
+        <nuxt-link to="/cart">Cart ({{cartLength}})</nuxt-link>
+      </div>
+    </nav>
     <nuxt />
   </div>
 </template>
+<script>
+export default {
+  computed: {
+    cartLength () {
+      return this.$store.state.cart.reduce((total, item) => total + item.quantity, 0)
+    }
+  }
+}
+</script>
 
 <style>
 html {
@@ -51,5 +67,25 @@ html {
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
+}
+
+.active-link {
+  color: red;
+  font-size: 44;
+}
+
+.nav-bar {
+  display: flex;
+  flex-direction: row; 
+  justify-content: space-between;
+}
+
+.links {
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
 }
 </style>
