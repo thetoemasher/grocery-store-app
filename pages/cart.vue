@@ -91,7 +91,7 @@ export default {
     max-width: 800px;
 }
 
-.cart-items:nth-child(even) {
+.cart-items:nth-child(odd) {
     background-color: #a2b84125;
 }
 
@@ -104,22 +104,18 @@ export default {
     justify-content: center;
     border: 1px solid black;
     align-items: center;
-    /* font-weight: 700; */
     font-size: 18px;
     padding: 10px;
-    /* min-width: 100px; */
 }
 
 .border {
     border: 1px solid black;
-    /* min-width: 100px; */
     padding: 10px;
     display: flex;
     align-items: center;
 }
 
 .cart-items {
-    /* height: 30px; */
     width: 100%;
     display: grid;
     grid-template-columns: 1fr 1fr .25fr 1fr;
@@ -205,8 +201,5 @@ export default {
     .price-container {
         flex-direction: column;
     }
-}
-@media (max-width: 435px) {
-    
 }
 </style>

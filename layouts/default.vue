@@ -96,7 +96,6 @@ html {
 .links a {
   font-size: 25px;
   margin-left: 25px;
-  /* color: #35495e; */
 }
 
 a {
@@ -110,9 +109,6 @@ a {
   }
 }
 @media (max-width: 435px) {
-  .links {
-    /* margin-right: 0; */
-  }
   .nav-bar h1, .links a {
     font-size: 15px;
     margin-left: 0;
