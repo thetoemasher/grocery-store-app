@@ -1,7 +1,7 @@
 <template>
   <div>
     <nav class="nav-bar">
-      <h1>CODY'S GROCERY STOP</h1>
+      <h1>Cody's Grocery Stop</h1>
       <div class="links">
         <nuxt-link to="/" >Home</nuxt-link>
         <nuxt-link to="/cart">Cart ({{cartLength}})</nuxt-link>
@@ -70,22 +70,52 @@ html {
 }
 
 .active-link {
-  color: red;
-  font-size: 44;
+  color: #263f5a;
 }
 
 .nav-bar {
   display: flex;
   flex-direction: row; 
   justify-content: space-between;
+  align-items: center;
+  background-color: #41b883;
+  padding: 15px;
+  position: fixed;
+  width: 100%;
+  height: 59px;
+}
+
+.nav-bar h1 {
+  font-size: 25px;
 }
 
 .links {
   margin-right: 15px;
 }
 
+.links a {
+  font-size: 25px;
+  margin-left: 25px;
+  /* color: #35495e; */
+}
+
 a {
   text-decoration: none;
   color: black;
+}
+
+@media (max-width: 515px) {
+  .nav-bar h1, .links a {
+    font-size: 20px;
+  }
+}
+@media (max-width: 435px) {
+  .links {
+    /* margin-right: 0; */
+  }
+  .nav-bar h1, .links a {
+    font-size: 15px;
+    margin-left: 0;
+  }
 }
 </style>

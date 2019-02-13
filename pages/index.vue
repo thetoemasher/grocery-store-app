@@ -1,34 +1,34 @@
 <template>
   <section class="container">
+      <search :categories="categories" @updateSearch="updateSearch($event)"/>
     <div class="grocery-container">
-      <nuxt-link to="/cart">Cart ({{cartQuantity}})</nuxt-link>
-      <input placeholder="Search" @keydown.enter="updateSearch"/>
-        <select v-model="category">
-          <option value="">Select A Category</option>
-          <option v-for="category in categories" :value="category">{{category}}</option>
-        </select>
-      <div class="grocery-grid">
+      <div class="grocery-grid" v-show="filteredGroceries.length">
         <div v-for="item in filteredGroceries" class="grocery-item">
-          <img :src="item.imageUrl"/>
+          <div class="grocery-img">
+            <img :src="item.imageUrl"/>
+          </div>
           <p>{{item.item}}</p>
-          <p>{{item.price}}</p>
+          <p>${{item.price}}</p>
           <p>Category: {{item.category}}</p>
           <button @click="$store.commit('addToCart', item)">Add To Cart</button>
         </div>
       </div>
+      <div v-show="!filteredGroceries.length">Sorry. Couldn't find any thing that matched your search.</div>
     </div>
-      <!-- <cart :cart="cart" @deleteItem="delteItemFromCart($event)" @placeOrder="cart=[]"/> -->
   </section>
 </template>
 
 <script>
 import groceryItems from "~/groceryitems.json"
+import Search from '~/components/Search'
 
 export default {
+  components: {
+    Search
+  },
   data() {
     return {
       groceryItems,
-      // cart: [],
       category: "",
       search: ""
     }
@@ -53,10 +53,13 @@ export default {
         return this.groceryItems.filter(item => item.item.toLowerCase().includes(this.search.toLowerCase()))
       }
       return this.groceryItems
-    },
-    cartQuantity() {
-            return this.$store.state.cart.reduce((quant,  item) => quant + item.quantity, 0)
-        }
+    }
+  },
+  methods: {
+    updateSearch(e) {
+      this.search = e.searchInput
+      this.category = e.categorySelect
+    }
   }
 }
 </script>
@@ -66,19 +69,8 @@ export default {
   margin: 0 auto;
   min-height: 100vh;
   width: 100vw;
-  display: flex;
-  justify-content: space-between;
-  /* align-items: center; */
   text-align: center;
-}
-
-.grocery-container {
-  display: flex;
-  flex-direction: column;
-  width: 75%;
-  align-items: center;
-  justify-content: space-evenly;
-  padding-left: 25px;
+  padding: 59px 25px 0 25px;
 }
 
 .grocery-grid {
@@ -89,6 +81,27 @@ export default {
 }
 
 .grocery-item {
-  width: 200px;
+  width: 205px;
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 4px;
+  margin: 5px;
+  padding: 5px;
+}
+
+.grocery-img {
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  border: 1px solid rgb(216, 216, 216);
+  background: rgb(240, 240, 240);
+  border-radius: 5px;
+}
+
+input, button, select {
+  outline: none;
 }
 </style>
