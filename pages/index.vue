@@ -70,7 +70,7 @@ export default {
   min-height: 100vh;
   width: 100vw;
   text-align: center;
-  padding: 59px 25px 0 25px;
+  padding: 59px 25px 25px 25px;
 }
 
 .grocery-grid {
